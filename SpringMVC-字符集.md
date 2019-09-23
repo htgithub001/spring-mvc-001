@@ -1,6 +1,6 @@
 # 字符集
 
-## 在之外Spring MVC之外
+## 在Spring MVC之外
 ```
     <filter>
         <filter-name>encodingFilter</filter-name>
@@ -37,6 +37,6 @@ CharacterEncodingFilter类具有encoding和forceEncoding两个属性，其中enc
         filterChain.doFilter(request, response);
     }
 ```
-通过源码也能看见，encodin用于设置request的编码，而forceEncoding为ture时设置response的编码。
+通过源码也能看见，encoding用于设置request的编码，而forceEncoding为ture时设置response的编码。
 
 来源：https://www.jianshu.com/p/c86db27642af
