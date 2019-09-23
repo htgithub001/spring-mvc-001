@@ -7,3 +7,5 @@
 4、Now DispatcherServlet send the model object to the ViewResolver to get the actual view page.
 
 5、Finally, DispatcherServlet will pass the Model object to the View page to display the result.
+
+来源：https://stackoverflow.com/questions/27918643/spring-mvc-request-and-response-flow-explanation
