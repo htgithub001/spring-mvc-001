@@ -43,6 +43,6 @@ CharacterEncodingFilter类具有encoding和forceEncoding两个属性，其中enc
 
 
 ## Spring MVC之内
-我会划分一些界限，比如进入Spring MVC后必须都是Unicode编码，出去Sping MVC后会全是utf8，比如是数据都是以utf8的格式进入mysql和redis。
+我会划分一些界限，比如进入Spring MVC后必须都是Unicode编码，出去Sping MVC后会全是utf8，比如数据都是以utf8的格式进入mysql和redis，但是取回这些utf8编码的数据到Spring MVC后，就是全部是Unicode格式了。
 
 至于jsp等页面，我会在页面上写明了是utf8格式，并在filter将它转化成utf8格式。
