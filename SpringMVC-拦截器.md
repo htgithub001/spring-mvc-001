@@ -1,3 +1,5 @@
+ #SpringMVC的拦截器的使用
+ 
  <!-- 配置拦截器 	-->
 	<mvc:interceptors>
     	<mvc:interceptor>
@@ -6,4 +8,4 @@
     	</mvc:interceptor>
 	</mvc:interceptors>
 
-【注意】springmvc-config.xml里面我删除了这段代码，这代码属于SpringMVC里面的代码，主要是验证用户是否已经登录成功。
+【注意】这代码属于SpringMVC里面的代码，主要是验证用户是否已经登录成功。
