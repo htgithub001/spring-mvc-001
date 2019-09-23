@@ -1,4 +1,4 @@
- #SpringMVC的拦截器的使用
+ # SpringMVC的拦截器的使用
  
  <!-- 配置拦截器 	-->
 	<mvc:interceptors>
