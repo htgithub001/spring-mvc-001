@@ -1,0 +1,8 @@
+需要在springmvc-config.xml（任何的springmvc的配置）添加
+
+<mvc:annotation-driven />
+<!--配置静态资源的访问映射，此配置中的文件，将不被前端控制器拦截 -->
+<mvc:resources location="/js/" mapping="/js/**" />
+<mvc:resources location="/css/" mapping="/css/**" />
+<mvc:resources location="/fonts/" mapping="/fonts/**" />
+<mvc:resources location="/images/" mapping="/images/**" />
