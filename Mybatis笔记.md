@@ -1,5 +1,6 @@
 ## 如何创建SqlSessionFactory
-在基础的 MyBatis 用法中，是通过 SqlSessionFactoryBuilder 来创建 SqlSessionFactory 的。 而在 MyBatis-Spring 中，则使用 SqlSessionFactoryBean 来创建。
+1) 在基础的 MyBatis 用法中，是通过 SqlSessionFactoryBuilder 来创建 SqlSessionFactory 的。 
+2) 而在 MyBatis-Spring 中，则使用 SqlSessionFactoryBean 来创建。
 
 ## 缓存
 
