@@ -14,16 +14,16 @@
 注意：SqlSessionFactory 需要一个 DataSource（数据源）。 这可以是任意的 DataSource，只需要和配置其它 Spring 数据库连接一样配置它就可以了。
 ```
 
-假设你定义了一个如下的 mapper 接口：
 ```
+假设你定义了一个如下的 mapper 接口：
+
 public interface UserMapper {
   @Select("SELECT * FROM users WHERE id = #{userId}")
   User getUser(@Param("userId") String userId);
 } 
-```
 
 那么可以通过 MapperFactoryBean 将接口加入到 Spring 中:
-```
+
 <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
   <property name="mapperInterface" value="org.mybatis.spring.sample.mapper.UserMapper" />
   <property name="sqlSessionFactory" ref="sqlSessionFactory" />
