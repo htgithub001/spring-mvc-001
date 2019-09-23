@@ -9,3 +9,5 @@ mvc到底有多少标签？
     </mvc:interceptor>
 </mvc:interceptors>
 ```
+
+@Bean注解有什么好处?
