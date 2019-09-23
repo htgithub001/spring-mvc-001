@@ -40,3 +40,9 @@ CharacterEncodingFilter类具有encoding和forceEncoding两个属性，其中enc
 通过源码也能看见，encoding用于设置request的编码，而forceEncoding为ture时设置response的编码。
 
 来源：https://www.jianshu.com/p/c86db27642af
+
+
+## Spring MVC之内
+我会划分一些界限，比如进入Spring MVC后必须都是Unicode编码，出去Sping MVC后会全是utf8，比如是数据都是以utf8的格式进入mysql和redis。
+
+至于jsp等页面，我会在页面上写明了是utf8格式，并在filter将它转化成utf8格式。
