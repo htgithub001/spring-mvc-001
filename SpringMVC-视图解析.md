@@ -11,3 +11,4 @@
     </bean>	
     
 ```
+我试了以下, 直接将它放在applicationContext里也是可以, 只不过放在spring-config.xml会显得更MVC吧.
