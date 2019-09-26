@@ -11,4 +11,4 @@
     </bean>	
     
 ```
-我试了一下, 直接将它放在applicationContext里也是可以, 只不过放在spring-config.xml里会显得更MVC吧.
+我试了一下, 直接将它放在applicationContext里也是可以, 只不过放在spring-config.xml可能是防止其他的MVC模块也用了这个视图解析器.
