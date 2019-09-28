@@ -22,5 +22,5 @@ public class RedisAllInOneController {
 }　　
 ```
 
-上述代码中的RedisService redisService就应该是线程安全的。总之service尽量做成线程安全的，比方说底层用线程池来支持。
+上述代码中的RedisService redisService就应该是线程安全的。总之<b>service要做成线程安全</b>的，比方说底层用线程池来支持。
 一旦线程的资源用尽，本程序就会开始进入等待状态，直到有线程（握有jedis客户端的线程）被释放。
